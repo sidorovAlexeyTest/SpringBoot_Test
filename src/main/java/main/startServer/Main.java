@@ -1,6 +1,6 @@
-package org.sidorov.startServer;
+package main.startServer;
 
-import org.sidorov.config.MyConfig;
+import main.config.MyConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyConfig.class, args);
+        SpringApplication.run(Main.class, args);
     }
 }

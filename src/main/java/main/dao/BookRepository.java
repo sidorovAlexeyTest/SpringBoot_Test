@@ -1,6 +1,6 @@
-package org.sidorov.dao;
+package main.dao;
 
-import org.sidorov.entity.book.Book;
+import main.book.Book;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;

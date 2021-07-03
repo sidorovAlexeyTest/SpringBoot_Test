@@ -1,4 +1,4 @@
-package org.sidorov.entity.book;
+package main.book;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

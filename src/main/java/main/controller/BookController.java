@@ -1,7 +1,7 @@
-package org.sidorov.controller;
+package main.controller;
 
-import org.sidorov.dao.BookRepository;
-import org.sidorov.entity.book.Book;
+import main.dao.BookRepository;
+import main.book.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
